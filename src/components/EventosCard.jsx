@@ -1,15 +1,14 @@
 import React from 'react'
 import styles from '../style'
-import { ctf1 } from '../assets/images'
 
-const EventosCard = () => {
+const EventosCard = ({img, title, content, boton  }) => {
   return (
-    <div className={` w-[400px] text-center bg-white rounded-2xl`}>
+    <div className={` w-[420px] text-center bg-white rounded-xl`}>
 
-        <img src={ctf1} alt="" className= ' hover:brightness-110' />
-        <h3 className= ' py-3 text-xl text-gray-700 font-bold font-Roboto'>CTF 1</h3>
-        <p className= 'text-gray-600 text-base font-Roboto'>CTF nivel principiante. Uso de herramientas básicas de linux para encontrar las flags</p><br />
-        <button className= 'text-white bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded shadow-md hover:shadow-lg mb-5'>ver mas</button>
+        <img src={img} alt="" className= ' hover:brightness-110 rounded-tl-xl rounded-tr-xl mb-2 hover:opacity-75 transition duration-500' />
+        <h3 className= ' py-3 text-xl text-gray-700  font-Roboto'>{title}</h3>
+        <p className= 'text-gray-600 text-base font-Roboto w-[350px] ml-6'>{content}</p><br />
+        <button className= 'text-white text-xs bg-gray-500  py-3 px-6 rounded shadow-md hover:shadow-lg mb-5 hover:drop-shadow-2xl'>{boton}</button>
         
 
     </div>
