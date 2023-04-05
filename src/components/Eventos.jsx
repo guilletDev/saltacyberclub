@@ -11,8 +11,6 @@ const Eventos = () => {
         <div className='py-8 mb-6 pb-4  grid md:grid-cols-2 md:grid-rows-3 md:gap-x-6 le:grid-cols-3 le:grid-rows-2 le:gap-x-8 '>
             {evento.map((card) => <EventosCard Key={card.id} {...card} />)}
         </div>
-      <br /><br />
-      <hr />  
     </div>
   )
 }

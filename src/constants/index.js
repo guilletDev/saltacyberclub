@@ -1,4 +1,4 @@
-import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6 } from "../assets/images";
+import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6, ucasal, saltait, antoneli, noticia1,noticia2, noticia3 } from "../assets/images";
 
 export const evento = [
     {
@@ -56,3 +56,41 @@ export const evento = [
         
       },
     ] 
+
+    export const sponsor = [
+      {
+        id: 'sponsor-1',
+        img: ucasal,
+        url: "https://www.ucasal.edu.ar/"
+      },
+      {
+        id: 'sponsor-2',
+        img: saltait,
+        url: "https://saltait.com/"
+      },
+      {
+        id: 'sponsor-3',
+        img: antoneli,
+        url: ""
+      },
+    ]
+
+    export const noticias = [
+      {
+        id: 'noticia-1',
+        img: noticia1,
+        tittle: 'esto es title',
+
+      },
+      {
+        id: 'noticia-2',
+        img: noticia2,
+        tittle: 'esto es title',
+
+      },
+      {
+        id: 'noticia-3',
+        img: noticia3,
+        tittle: 'esto es title',
+      },
+    ]
