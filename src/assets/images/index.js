@@ -10,6 +10,10 @@ import antoneli from './antoneli.jpg';
 import noticia1 from './noticia1.webp';
 import noticia2 from './noticia2.png';
 import noticia3 from './noticia3.webp';
+import somos1 from './somos1.webp';
+import somos2 from './somos2.webp';
+import somos3 from './somos3.webp';
+
 
 export {
     ctf1,
@@ -24,4 +28,7 @@ export {
     noticia1,
     noticia2,
     noticia3,
+    somos1,
+    somos2,
+    somos3,
 }

@@ -3,8 +3,8 @@ import styles from '../style'
 
 const NoticiasCard = ({img, tittle}) => {
   return (
-    <div className={`${styles.boxWidth} rounded-xl my-2 mb-4`}>
-        <img src={img} alt={tittle} />
+    <div className={`rounded-xl my-2 mb-4`}>
+        <img src={img} alt={tittle} className={`${styles.boxWidth}`} />
         
     </div>
   )

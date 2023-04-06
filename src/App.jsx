@@ -5,6 +5,7 @@ import Contacto from './components/Contacto'
 import Footer from './components/Footer'
 import Redes from './components/Redes'
 import Noticias from './components/Noticias'
+import Somos from './components/Somos'
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} sm:py-10 sm:px-12 py-10`}>
+        <hr /><br />  
+        <Somos />  
         <hr /><br />  
         <Noticias /><br /><br />
           <hr />

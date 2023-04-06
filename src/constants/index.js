@@ -1,4 +1,4 @@
-import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6, ucasal, saltait, antoneli, noticia1,noticia2, noticia3 } from "../assets/images";
+import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6, ucasal, saltait, antoneli, noticia1,noticia2, noticia3, somos1, somos2, somos3 } from "../assets/images";
 
 export const evento = [
     {
@@ -93,4 +93,26 @@ export const evento = [
         img: noticia3,
         tittle: 'esto es title',
       },
+    ]
+
+    export const somos = [
+      {
+        id: 'somos-1',
+        img: somos1,
+        title: '¿Quiénes somos?',
+        text: 'Somos un grupo de profesionales dedicados y apasionados por la ciberseguridad, informática y redes. Salta Cybersecurity Club tiene como objetivo generar un espacio donde compartir conocimientos, experiencias, ideas, trabajos y por sobre todo aprender y enseñar.',
+      
+      },
+      {
+        id: 'somos-2',
+        img: somos2,
+        title: '¿Qué es lo que hacemos?',
+        text: 'Creemos en el poder de la colaboración y el intercambio de conocimientos para mejorar la seguridad digital. Estamos comprometidos en ayudar a nuestros miembros a desarrollar sus habilidades y conocimientos, y en promover la protección de los sistemas y datos digitales.',
+      },
+      {
+        id: 'somos-3',
+        img: somos3,
+        title: '¿Qué garantizamos?',
+        text:'Nuestra comunidad es un ambiente colaborativo y acogedor donde todos son bienvenidos, independientemente de su nivel de experiencia o formación. Si estás interesado en desarrollar tus habilidades de ciberseguridad y conocer a otros profesionales en el campo, te esperamos!',
+      },    
     ]
