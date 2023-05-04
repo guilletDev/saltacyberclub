@@ -11,8 +11,16 @@ import noticia1 from './noticia1.webp';
 import noticia2 from './noticia2.png';
 import noticia3 from './noticia3.webp';
 import somos1 from './somos1.webp';
-import somos2 from './somos2.webp';
+import somos2 from './somos2.jpg';
 import somos3 from './somos3.webp';
+import vid1 from './vid1.mp4';
+import vid2 from './vid2.mp4';
+import vid3 from './vid3.mp4';
+import scc from './scc-min.png';
+import wd from './wd.png';
+import close from './close.svg';
+import menu from './menu.svg';
+
 
 
 export {
@@ -31,4 +39,11 @@ export {
     somos1,
     somos2,
     somos3,
+    vid1,
+    vid2,
+    vid3,
+    scc,
+    wd,
+    close,
+    menu,
 }

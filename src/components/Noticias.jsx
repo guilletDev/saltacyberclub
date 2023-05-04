@@ -53,7 +53,10 @@ const Noticias = () => {
           {noticias.map((notic) => (
             <NoticiasCard key={notic.id} {...notic} />
           ))}
+          
         </Slider>
+        
+        
       </div>
     </div>
   );

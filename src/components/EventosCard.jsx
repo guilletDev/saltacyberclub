@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../style'
 
 const EventosCard = ({img, title, content, boton  }) => {
   return (

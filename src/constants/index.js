@@ -1,4 +1,47 @@
-import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6, ucasal, saltait, antoneli, noticia1,noticia2, noticia3, somos1, somos2, somos3 } from "../assets/images";
+import { ctf1, ctf2, ctf3, ctf4, ctf5, ctf6, ucasal, saltait, antoneli, noticia1,noticia2, noticia3, somos1, somos2, somos3, vid1, vid2, vid3, wd } from "../assets/images";
+
+
+
+export const navLinks = [
+  {
+    id: 'home',
+    title: 'Home',
+  },
+  {
+    id: 'nosotros',
+    title: 'Nosotros',
+  },
+  {
+    id: 'eventos',
+    title: 'Eventos',
+  },
+  {
+    id: 'cursos',
+    title: 'Cursos',
+  },
+  {
+    id: 'academia',
+    title: 'Academia',
+  },
+  {
+    id: 'trainings',
+    title: 'Trainings',
+  },
+  {
+    id: 'ctf',
+    title: 'Ctf',
+  },
+  {
+    id: 'aplicaciones',
+    title: 'Aplicaciones',
+  },
+  {
+    id: 'blog',
+    title: 'Blog',
+  },
+]
+
+
 
 export const evento = [
     {
@@ -79,19 +122,22 @@ export const evento = [
       {
         id: 'noticia-1',
         img: noticia1,
-        tittle: 'esto es title',
+        title: 'CAPACITACIÓN EN UCASAL',
+        text: 'Se realizó el primer CTF presencial. Gran convocatoria.',
 
       },
       {
         id: 'noticia-2',
         img: noticia2,
-        tittle: 'esto es title',
+        title: '4to PUESTO EN EKOPARTY',
+        text: 'El equipo de SCC consiguió el 4to puesto.',
 
       },
       {
         id: 'noticia-3',
         img: noticia3,
-        tittle: 'esto es title',
+        title: 'INTRODUCCIÓN A LA CIBERSEGURIDAD',
+        text: 'Se dictó el taller de Introducción a la Ciberseguridad.',
       },
     ]
 
@@ -116,3 +162,25 @@ export const evento = [
         text:'Nuestra comunidad es un ambiente colaborativo y acogedor donde todos son bienvenidos, independientemente de su nivel de experiencia o formación. Si estás interesado en desarrollar tus habilidades de ciberseguridad y conocer a otros profesionales en el campo, te esperamos!',
       },    
     ]
+
+    export const vid = [
+      {
+        id:'vid-1',
+        video: vid1,
+        title: 'SALTA CYBERSEGURITY CLUB',
+        text: 'La comunidad de Ciberseguridad mas grande del Norte Argentino'
+      },
+      {
+        id:'vid-2',
+        video: vid2,
+        title: 'SALTA CYBERSEGURITY CLUB',
+        text: 'Talleres, capacitaciones, competencias, eventos y más..'
+      },
+      {
+        id:'vid-3',
+        video: vid3,
+        title: 'SALTA CYBERSEGURITY CLUB',
+        text: 'Sumáte a esta gran comunidad'
+      }
+    ]
+

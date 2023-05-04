@@ -13,6 +13,8 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    botonHero: 'text-center text-white hover:bg-transparent transition duration-300 sm:text-sm font-semibold sm:ml-4 ml-4 mt-4 border sm:py-3 sm:px-5 px-4 py-3.5 rounded bg-fuchsia-900 border-slate-50 border-20',
   };
   
   export const layout = {
